@@ -1,0 +1,29 @@
+{
+  "name": "appstruct-social",
+  "displayName": "AppStruct Social",
+  "version": "1.0.0",
+  "description": "Read connected channels and analytics, and prepare unscheduled social post drafts for review in AppStruct.",
+  "author": {
+    "name": "AppStruct",
+    "email": "support@appstruct.cloud"
+  },
+  "homepage": "https://blog.appstruct.ai/blog/social-media-mcp-server?utm_source=cursor_plugin&utm_medium=referral&utm_campaign=social_mcp_launch_20261114",
+  "repository": "https://github.com/VladimirTambovtsev/appstruct-social-cursor-plugin",
+  "license": "MIT",
+  "keywords": ["mcp", "social-media", "drafts", "marketing", "appstruct"],
+  "logo": "assets/appstruct.svg",
+  "skills": "./skills",
+  "mcpServers": "./mcp.json",
+  "variables": {
+    "type": "object",
+    "properties": {
+      "APPSTRUCT_SOCIAL_MCP_KEY": {
+        "type": "string",
+        "title": "AppStruct Social API key",
+        "description": "A key for your intended AppStruct workspace. Use social:read; add social:drafts:write to save drafts or social:analytics:read for metrics.",
+        "minLength": 1
+      }
+    },
+    "required": ["APPSTRUCT_SOCIAL_MCP_KEY"]
+  }
+}
