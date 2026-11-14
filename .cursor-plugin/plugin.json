@@ -1,7 +1,7 @@
 {
   "name": "appstruct-social",
   "displayName": "AppStruct Social",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Read connected channels and analytics, and prepare unscheduled social post drafts for review in AppStruct.",
   "author": {
     "name": "AppStruct",

@@ -1,0 +1,19 @@
+{
+  "name": "appstruct-social-plugins",
+  "owner": {
+    "name": "AppStruct",
+    "email": "support@appstruct.cloud"
+  },
+  "metadata": {
+    "description": "AppStruct Social connection and draft-review workflow for Claude Code."
+  },
+  "plugins": [
+    {
+      "name": "appstruct-social",
+      "source": "./",
+      "description": "Read channels and analytics, and save unscheduled social drafts for review.",
+      "version": "1.1.0",
+      "homepage": "https://blog.appstruct.ai/blog/social-media-mcp-server?utm_source=claude_plugin&utm_medium=referral&utm_campaign=social_mcp_launch_20261114"
+    }
+  ]
+}
