@@ -62,6 +62,8 @@ There are no package dependencies, executable hooks or bundled server process. T
 
 Version 1.1.0 adds Claude Code packaging and installation instructions. The manifests are validated locally, and the tool list matches the live Social OpenAPI document. The public MCP endpoint returns HTTP 401 without a key. An authenticated client draft run was not performed for this package release; use the first-read and draft checks above with your own intended workspace.
 
+On 16 November 2026, [Glama](https://glama.ai/mcp/connectors/io.github.VladimirTambovtsev/appstruct-social) successfully initialized the hosted endpoint with a dedicated `social:read` test profile and discovered the four read-only tools. This check covered connection and tool metadata; it did not create or edit drafts. The linked page shows the current health result.
+
 This is published by AppStruct. Marketplace review, search indexing and adoption are separate from the repository release. View the hosted server's [official MCP Registry record](https://registry.modelcontextprotocol.io/?q=io.github.VladimirTambovtsev%2Fappstruct-social), or [explore AppStruct Social](https://appstruct.ai/social?utm_source=github_plugin&utm_medium=referral&utm_campaign=social_mcp_launch_20261114&utm_content=repo_product).
 
 ## License
